@@ -1,0 +1,4 @@
+data/backup/
+data/data_imgs_preprocessed/
+model/
+.ipynb_checkpoints/

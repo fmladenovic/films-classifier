@@ -1,0 +1,18 @@
+conda create --name nn-ve python=3.6 pip
+conda activate nn-ve
+
+conda install numpy pandas scikit-image Keras ipykernel scikit-learn
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge notebook
+
+conda activate nn-ve
+conda install ipykernel
+python -m ipykernel install --user --name nn-ve
+pip install kerascv
+pip install opencv-python
+
+//Setup keras-vis
+git colne https://github.com/raghakot/keras-vis
+cd keras-vis
+conda activate nn-ve
+python setup.py install
